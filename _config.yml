@@ -1,0 +1,28 @@
+title: software-engineer-portfolio-jekyll-template
+description: >- # this means to ignore newlines until "baseurl:"
+  A Jekyll template for Software Engineer portfolios. Can work with github pages too.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://github.com/AngeloFilaseta/software-engineer-portfolio-jekyll-template" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: username
+github_username:  username
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-multiple-languages-plugin
+
+languages: ["en", "it"]
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - .gitinore
+  - .gitatrributes
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
