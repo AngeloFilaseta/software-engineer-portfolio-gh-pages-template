@@ -73,7 +73,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  http_parser.rb (~> 0.6.0)
+  http_parser.rb (~> 0.8.0)
   jekyll (~> 4.3.0)
   jekyll-feed (~> 0.12)
   jekyll-multiple-languages-plugin (~> 1.7.0)
