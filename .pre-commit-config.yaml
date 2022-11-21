@@ -27,3 +27,11 @@ repos:
   rev: v2.1.0
   hooks:
   - id: docker-compose-check # checks that docker-compose files are valid.
+
+- repo: https://github.com/Lucas-C/pre-commit-hooks-lxml
+  sha: v1.1.0
+  hooks:
+  - id: forbid-html-img-without-alt-text # list every <img> tag without a alt= or data-ng-attr-alt= attribute
+  - id: forbid-non-std-html-attributes # detect any non-standard attribute that is not prefixed with data-
+  - id: html-tags-blacklist # forbid some HTML tags
+  - id: html-attributes-blacklist # forbid some HTML attributes
