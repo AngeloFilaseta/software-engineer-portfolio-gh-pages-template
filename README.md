@@ -1,6 +1,6 @@
-# repository-template
+# software-engineer-portfolio-jekyll-template
 
-Repository Template with a ready ``.gitattributes`` and a ready [pre-commit configuration](https://pre-commit.com/hooks.html).
+A Jekyll template for Software Engineer portfolios. Can work with github pages too.
 
 ### Notes
 The ``pre-commit-config.yaml`` is versioned and collaborators of the repository should use [pre-commit](https://pre-commit.com/) to work consistently.
