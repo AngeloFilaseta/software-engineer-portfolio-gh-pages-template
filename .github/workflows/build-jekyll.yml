@@ -24,4 +24,4 @@ jobs:
         with:
           provider: 'github'
           token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
-          branch: 'master'
+          branch: 'gh-pages'
